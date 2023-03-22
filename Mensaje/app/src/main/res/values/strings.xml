@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Mensaje</string>
+    <string-array name="deportes">
+        <item> Futbol</item>
+        <item> Futbolin</item>
+        <item> Futbol sala</item>
+        <item> Futbol 7</item>
+    </string-array>
+</resources>

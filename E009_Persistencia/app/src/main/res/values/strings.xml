@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">E009_Persistencia</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="opciones_header">Opciones</string>
+
+    <string name="mis_datos_header">Mis datos</string>
+
+    <!-- Messages Preferences -->
+
+    <string name="email_title">E-mail</string>
+
+    <string name="salvar_title">Guardar por defecto</string>
+
+    <string name="email_dialogTitle">Introduce tu E-mail</string>
+
+    <string name="sexo_title">Indique su sexo</string>
+
+
+    -
+    <string-array name="Sexo">
+        <item>Hombre</item>
+        <item>Mujer</item>
+        <item>Otros</item>
+    </string-array>
+    -
+    <string-array name="codigoSexo">
+        <item>H</item>
+        <item>M</item>
+        <item>O</item>
+    </string-array>
+    <string name="aficiones_title">Elija sus aficiones</string>
+    -
+    <string-array name="Aficiones">
+        <item>Cine</item>
+        <item>Música</item>
+        <item>Lectura</item>
+    </string-array>
+    -
+    <string-array name="codigoAficiones">
+        <item>C</item>
+        <item>M</item>
+        <item>L</item>
+    </string-array>
+    <!-- Sync Preferences -->
+    <string name="activar_sonido">Activar sonido</string>
+    <string name="title_activity_actividad_bbdd">ActividadBBDD</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">ConversorDeDivisas</string>
+    <string name="titulo">Conversor de Divisas</string>
+    <string name="textoTextField">Introduzca la cantidad en Euros</string>
+    <string name="numeros" />
+    <string-array name="nombres_divisas">
+        <item>Dólares estadounidenses</item>
+        <item>Libras esterlinas</item>
+        <item>Dólares canadienses</item>
+        <item>Dólares australianos</item>
+        <item>Yenes japoneses</item>
+        <item>Rupias indias</item>
+        <item>Dólares neozelandeses</item>
+        <item>Francos suizos</item>
+        <item>Rands sudafricanos</item>
+        <item>Rublos rusos</item>
+    </string-array>
+    <string-array name="valor_divisas">
+        <item>1.1293946</item>
+        <item>0.85447758</item>
+        <item>1.4339265</item>
+        <item>1.5788175</item>
+        <item>128.17384</item>
+        <item>85.36992</item>
+        <item>1.6631981</item>
+        <item>1.0441295</item>
+        <item>18.030472</item>
+        <item>83.219626</item>
+    </string-array>
+    <string-array name="siglas_divisas">
+        <item>USD</item>
+        <item>GBP</item>
+        <item>CAD</item>
+        <item>AUD</item>
+        <item>JPY</item>
+        <item>INR</item>
+        <item>NZD</item>
+        <item>CHF</item>
+        <item>ZAR</item>
+        <item>RUB</item>
+    </string-array>
+    <string-array name="simbolo_divisas">
+        <item>$</item>
+        <item>£</item>
+        <item>C$</item>
+        <item>A$</item>
+        <item>¥</item>
+        <item>₹</item>
+        <item>NZ$</item>
+        <item>Fr</item>
+        <item>R</item>
+        <item>₽</item>
+    </string-array>
+</resources>

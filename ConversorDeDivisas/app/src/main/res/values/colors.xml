@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primaryColor">#f57f17</color>
+    <color name="primaryLightColor">#ffb04c</color>
+    <color name="primaryDarkColor">#bc5100</color>
+    <color name="secondaryColor">#bf360c</color>
+    <color name="secondaryLightColor">#f9683a</color>
+    <color name="secondaryDarkColor">#870000</color>
+    <color name="primaryTextColor">#000000</color>
+    <color name="secondaryTextColor">#ffffff</color>
+    <color name="purple_900">#C27B09</color>
+    <color name="red_500">#F81707</color>
+    <color name="white_50">#FCF8F7</color>
+    <color name="red_300">#F44336</color>
+    <color name="GRIS">#A9A9A9</color>
+    <color name="GRIS_FONDO">#515a5a</color>
+    <color name="azul_marino">#000033</color>
+    <color name="negro_fondo2">#212f3c</color>
+    <color name="GRIS_OSCURO"> #221211</color>
+    <color name="Fondo_row"> #fdfefe </color>
+    <color name="gris_claro">#abb2b9</color>
+    <color name="fondo_selecion_raw">#FF3700B3</color>
+    <color name="fondo_selecion_larga_raw">#4c377c</color>
+    <color name="letras">#F81707</color>
+
+
+</resources>

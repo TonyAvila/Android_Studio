@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraint"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tv"
+        android:layout_width="325dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/textoTextField"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/euros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/numeros"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textAlignment="center" />
+        <!-- android:inputType="number" lo introduco para que solo puedan usarse numeros enters-->
+        <!-- para que me funcione la caja para introducir el texto necesitas cambiar el tema, sino
+        aparecera con linea inferior, parent="Theme.Material3.DayNight"-->
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="496dp"
+        android:layout_marginTop="20dp"
+        android:text="Divisa Destino"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvDivisas"
+        android:layout_width="290dp"
+        android:layout_height="240dp"
+        android:layout_marginStart="400dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/vips"
+        android:layout_width="130dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="90dp"
+        android:autoText="false"
+        android:backgroundTintMode="add"
+        android:contextClickable="false"
+        android:showText="false"
+        android:text="Cliente Vip"
+        android:textIsSelectable="true"
+        android:textStyle="bold"
+        android:theme="@style/SCBSwitch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/convertir"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="140dp"
+        android:text="Convertir"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="210dp"
+        android:text="Cantidad en nueva divisa"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="370dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="240dp"
+        android:textAlignment="center"
+        android:textColor="@color/letras"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,44 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ConversorDeDivisas" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/gris_claro</item>
+        <!-- Color de la primera barra  superior -->
+        <item name="colorPrimaryVariant">@color/black</item>
+
+        <item name="colorOnPrimary">@color/GRIS_OSCURO</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+
+        <!-- Color del fondo de la aplicacion -->
+        <item name="android:windowBackground">@color/GRIS_FONDO</item>
+    </style>
+
+    <style name="SCBSwitch" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <!-- Color del boton activado -->
+        <item name="colorControlActivated">@color/GRIS_OSCURO</item>
+        <!--Color del alo que rodea al boton cuando lo activas-->
+        <item name="colorControlHighlight">@color/GRIS</item>
+
+        <!-- inactive thumb color -->
+        <!-- Color del boton -->
+        <item name="android:thumbTint">@color/GRIS</item>
+        <!-- Color del fondo del boton activado -->
+
+
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">@color/gris_claro
+        </item>
+    </style>
+
+
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+	<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+        android:oneshot="false">
+        <item android:drawable="@drawable/bar_done" android:duration="100" />
+        <item android:drawable="@drawable/cherry_done" android:duration="100" />
+        <item android:drawable="@drawable/lemon_done" android:duration="100" />
+		<item android:drawable="@drawable/orange_done" android:duration="100" />
+        <item android:drawable="@drawable/sevent_done" android:duration="100" />
+        <item android:drawable="@drawable/triple_done" android:duration="100" />
+        <item android:drawable="@drawable/waternelon_done" android:duration="100" />		
+    </animation-list>

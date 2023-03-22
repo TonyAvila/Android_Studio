@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Spin</string>
+    <string-array name="temas">
+        <item>Serie</item>
+        <item>Grupo música</item>
+        <item>Anime</item>
+    </string-array>
+</resources>

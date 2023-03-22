@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <color name="Fondo_row">  #909497  </color>
+   <color name="letras">#8f0704</color>
+   <color name="fondo_selecion_larga_raw">#546293</color>
+   <color name="fondo_selecion_raw">#2d3d66</color>
+
+   </resources>

@@ -1,0 +1,31 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory app:title="@string/mis_datos_header">
+        <EditTextPreference
+            app:dialogTitle= "@string/email_dialogTitle"
+            app:key="email"
+            app:title="@string/email_title"
+            app:useSimpleSummaryProvider="false" />
+        <ListPreference
+            android:defaultValue="false"
+            android:entries="@array/Sexo"
+            android:entryValues="@array/codigoSexo"
+            android:key="sexo"
+            android:title="@string/sexo_title" />
+        <MultiSelectListPreference
+            android:entries="@array/Aficiones"
+            android:entryValues="@array/codigoSexo"
+            android:key="aficiones"
+            android:title="@string/aficiones_title"/>
+    </PreferenceCategory>
+    <PreferenceCategory app:title="@string/opciones_header">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="sonido"
+            android:title="@string/activar_sonido" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="salvar"
+            android:title="@string/salvar_title" />
+    </PreferenceCategory>
+  </PreferenceScreen>

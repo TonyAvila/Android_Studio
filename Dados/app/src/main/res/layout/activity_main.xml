@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ivgif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="281dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="Saldo"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="100"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="430dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ganar_dados" />
+
+    <Spinner
+        android:id="@+id/sp1"
+        android:layout_width="300dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="160dp"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="281dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="620dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/ivdado1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageView
+            android:id="@+id/ivdado2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:srcCompat="@tools:sample/avatars" />
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:id="@+id/tb"
+        android:layout_width="325dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:singleSelection="true">
+
+        <Button
+            android:id="@+id/btParImpar"
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Par/Impar"
+            android:textColor="#f57f17" />
+
+        <Button
+            android:id="@+id/btMayorMenor7"
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:text="Mayor/Menor que 7"
+            android:textColor="#f57f17" />
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textField"
+
+        android:layout_width="325dp"
+
+        android:layout_height="60dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="270dp"
+        android:hint="@string/label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/jugada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/numeros"
+            android:inputType="number"
+            android:minHeight="48dp" />
+        <!-- android:inputType="number" lo introduco para que solo puedan usarse numeros enteros-->
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/elb1"
+        style="@style/Widget.Material3.Button.ElevatedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="360dp"
+        android:text="Lanzar los dados"
+        android:textColor="#f57f17"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

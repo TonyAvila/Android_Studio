@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navegacion_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/id_inicio"
+            android:icon="@drawable/home_48px"
+            android:iconTint="@color/black"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/id_horario"
+            android:icon="@drawable/productivity_48px"
+            android:iconTint="@color/black"
+            android:title="@string/menu_horario" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/id_calendario"
+            android:icon="@drawable/empty_dashboard_48px"
+            android:iconTint="@color/black"
+            android:title="@string/menu_calendario" />
+        <item
+            android:id="@+id/id_add"
+            android:icon="@drawable/add_48px"
+            android:iconTint="@color/black"
+            android:title="@string/menu_Add" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/id_salir"
+            android:icon="@drawable/logout_48px"
+            android:iconTint="@color/black"
+            android:title="@string/menu_salir" />
+    </group>
+
+
+
+</menu>

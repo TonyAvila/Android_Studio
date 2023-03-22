@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Dados</string>
+    <string name="label">Introduce tu apuesta</string>
+    <string name="numeros"></string>
+</resources>

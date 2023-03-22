@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CardView</string>
+    <string-array name="lenguajes">
+        <item>Seleccione</item>
+        <item>Rubi</item>
+        <item>Java</item>
+        <item>.NET</item>
+        <item>Python</item>
+        <item>PHP</item>
+        <item>JavaScript</item>
+        <item>Go</item>
+    </string-array>
+</resources>

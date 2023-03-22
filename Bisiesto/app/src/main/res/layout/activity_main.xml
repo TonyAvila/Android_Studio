@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraint"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="356dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="188dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/Generador"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="36dp"
+            android:text="GENERADOR NUM"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/numAleatorio"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/numAleatorio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/Generador"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/Generador"
+            app:layout_constraintTop_toTopOf="@+id/Generador" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="161dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="280dp"
+        android:text="¿Este año es bisiesto?"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:layout_width="90dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="328dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/rbSi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="si" />
+
+        <RadioButton
+            android:id="@+id/rbNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="no" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/comprobar"
+        android:layout_width="208dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="462dp"
+        android:text="COMPROBAR RESULTADO"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="183dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="548dp"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/fondo"
+        android:layout_width="214dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="120dp"
+        android:autoText="false"
+        android:contextClickable="false"
+        android:showText="true"
+        android:text="Fondo Amarillo"
+        android:textIsSelectable="false"
+        android:textOff="OFF"
+        android:textOn="ON"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cerrar"
+        android:layout_width="45dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="334dp"
+        android:layout_marginTop="104dp"
+        android:onClick="cerrar"
+        android:text="x"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
